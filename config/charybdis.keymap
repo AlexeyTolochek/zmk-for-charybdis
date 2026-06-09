@@ -103,14 +103,14 @@
 &kp ESCAPE      &mt F1 N1  &mt F2 N2  &mt F3 N3     &mt F4 N4     &mt F5 N5    &mt F6 N6  &mt F7 N7   &mt UNDERSCORE N8  &mt MINUS N9  &mt PLUS N0     &kp BACKSPACE
 &kp TAB         &kp Q      &kp W      &kp E         &kp R         &kp T        &kp Y      &kp U       &mt UP I           &kp O         &kp P           &kp LBKT
 &kp LEFT_SHIFT  &kp A      &kp S      &kp D         &kp F         &kp G        &kp H      &mt LEFT J  &mt DOWN K         &mt RIGHT L   &kp SEMI        &mt EQUAL APOS
-&kp LCTRL       &kp Z      &kp X      &kp C         &kp V         &kp B        &kp N      &kp M       &kp COMMA          &kp DOT       &mt FSLH EQUAL  &kp RBKT
+&kp LCTRL       &kp Z      &kp X      &kp C         &kp V         &kp B        &kp N      &kp M       &kp COMMA          &kp DOT       &mt FSLH EQUAL  &mt BSLH RBKT
                                       &kp LEFT_ALT  &kp LEFT_GUI  &to 1        &kp RWIN   &kp SPACE
                                                     &mkp MB1      &mkp MB2     &kp ENTER
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
