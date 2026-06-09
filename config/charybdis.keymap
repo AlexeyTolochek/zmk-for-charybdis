@@ -104,13 +104,13 @@
 &kp TAB         &kp Q      &kp W      &kp E         &kp R         &kp T        &kp Y      &kp U       &mt UP I           &kp O         &kp P           &kp LBKT
 &kp LEFT_SHIFT  &kp A      &kp S      &kp D         &kp F         &kp G        &kp H      &mt LEFT J  &mt DOWN K         &mt RIGHT L   &kp SEMI        &mt EQUAL APOS
 &kp LCTRL       &kp Z      &kp X      &kp C         &kp V         &kp B        &kp N      &kp M       &kp COMMA          &kp DOT       &mt FSLH EQUAL  &kp RBKT
-                                      &kp LEFT_ALT  &kp LEFT_GUI  &to 1        &kp RWIN   &kp SPACE
-                                                    &mkp MB1      &mkp MB2     &kp ENTER
+                                      &kp LEFT_ALT  &kp LEFT_GUI  &to 1        &mkp MB1   &mkp MB2
+                                                    &kp ENTER     &kp SPACE    &kp ENTER
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -121,7 +121,7 @@
 &kp ESC         &kp F1        &kp F2     &kp F3        &kp F4         &kp F5           &kp F6         &kp F7     &kp F8      &kp F9             &kp F10          &mt F12 F11
 &kp TAB         &bt BT_CLR    &kp TILDE  &kp MINUS     &kp EQUAL      &none            &none          &none      &kp UP      &none              &kp LEFT_BRACE   &kp PLUS
 &kp LEFT_SHIFT  &bt BT_SEL 1  &kp GRAVE  &none         &kp K_REFRESH  &kp LS(LC(R))    &none          &kp LEFT   &kp DOWN    &kp RIGHT          &kp RIGHT_BRACE  &kp MINUS
-&kp LCTRL       &bt BT_SEL 0  &kp LC(Z)  &kp LC(C)     &none          &none            &none          &none      &kp PERIOD  &kp RIGHT_BRACKET  &none            &kp EQUAL
+&kp LCTRL       &bt BT_SEL 0  &kp LC(Z)  &kp LC(C)     &none          &none            &none          &none      &kp PERIOD  &kp RIGHT_BRACKET  &kp BSLH         &kp EQUAL
                                          &kp LEFT_ALT  &kp LEFT_WIN   &to 0            &kp RIGHT_WIN  &kp SPACE
                                                        &mkp MB1       &mkp MB2         &kp ENTER
             >;
